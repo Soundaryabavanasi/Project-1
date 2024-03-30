@@ -1,0 +1,328 @@
+@import "normalize.css";
+
+
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+	
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	color:black;
+}	
+
+
+
+h3 a {
+	color:black;
+}
+
+a {
+	
+    text-decoration: none;
+}
+
+
+
+#container {
+	margin: 0 auto;
+}
+
+
+
+nav {
+
+	background-color:#094067;
+}
+
+nav ul {
+	padding: 0;
+  margin: 0;
+	list-style: none;
+	position: relative;
+    display:flex;
+    align-content: center;
+    justify-content: space-around;
+    height: 70px;
+	}
+	
+nav ul li {
+	display:inline-block;
+	background-color: #094067;
+  margin-right: 5%;
+  height:70%;
+	}
+
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+
+nav a:hover { 
+	background-color:none; 
+}
+
+
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px;
+}
+	
+
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+
+nav ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:170px;
+}
+
+  .last{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+   .magic{
+    margin-right: 100px;
+   }
+ b{
+  margin-bottom: 3%;
+ }
+  
+  
+  .btn{
+    display:inline-block;
+    background-color: #094067;
+    color:#FFF;
+    padding:14px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left:200px;
+    opacity:0.9;
+    cursor: pointer;
+  }
+  
+
+  
+  input[type="text"]{
+    height:40px;
+    margin-top: 18px;
+    border-radius: 22px;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer1{
+    display: flex;
+    
+  }
+
+  .bar{
+    display:flex;
+    border:1px solid;
+    width:60%;
+    margin-top: 4%;
+    align-items: center;
+    margin-left: 17%;
+    margin-bottom: 5%;
+  }
+  .rent{
+    display: flex;
+    justify-content: flex-start;
+    border:1px solid;
+    width:60%;
+
+  }
+  div.text{
+    border-right:1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top:1%;
+    margin-left: 1%;
+  }
+  div.one{
+    border-right: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top:1%;
+    margin-left: 1%;
+
+  }
+  div.two{
+    border-right: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top:1%;
+    margin-left: 1%;
+  }
+  div.three{
+    border-right: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top:1%;
+    margin-left: 1%;
+  }
+  .payment{
+    width:160%;
+  }
+  div.number{
+    display: flex;
+    margin-top: 1%;
+  }
+  .room-details{
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+  .image{
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  .link{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    align-items: center;
+    justify-content: space-around;
+  }
+  footer{
+    background-color: #eed9d9;
+    height:40vh;
+    
+    
+    
+   
+  }
+  .search i{
+    position: relative;
+    right:50px;
+    
+  }
+  .footerone{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .button{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+/* another popup/*
+.cancelbtn, .deletebtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color:black;
+  padding:14px 25px;
+  color: black;
+
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+  background-color:black;
+  padding:14px 25px;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 20%;
+  text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 30px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto 10% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color:white;
+  cursor: pointer;
+}
+a{
+  color:white;
+}
+
+/* Clear floats */
+.clearfix::after {
+  
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .deletebtn {
+     width: 100%;
+  }
+}
+  

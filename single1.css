@@ -1,0 +1,250 @@
+@import "normalize.css";
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+    
+  .data p{
+  display: flex;
+  justify-content: center;
+  }
+  .last{
+    display: flex;
+    justify-content: space-around;
+  }
+  h2.message{
+    color:red;
+    margin: 15rem 20rem 0rem 30rem;
+    font-size: 30px;
+
+  }
+  
+  
+ 
+
+.border {
+    border: 1px solid gray;
+    border-radius: 8px;
+    height: 1300px;
+    width: 1420px;
+    margin: 8rem 5rem 0 7rem;
+}  
+
+.pg_detail {
+    display: flex;
+}
+
+.pg_detail img {
+    margin: 3.5rem 1rem 0 4rem;
+    border-radius: 7px;
+}
+.fivefacilities{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.fivefacilities b{
+  display: flex;
+  justify-content: center;
+  margin-right: 2px;
+}
+
+.sharing {
+  
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    /* justify-content: space-evenly; */
+  
+}
+
+h4, b {
+    margin-left: 1rem;
+}
+
+.sharing div {
+    border: 0.5px solid black;
+    width: 14rem;
+    height: 10rem;
+   
+}
+.sharing b,h4{
+margin-left: 10%;
+  justify-content: center;
+}
+.acavailable{
+  display: flex;
+ 
+}
+.facility,.setofnames{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 6px;
+  font-size: medium;
+  margin-top: 20px;
+ 
+ }
+ 
+ 
+.acavailable div {
+  border: 0.5px solid black;
+  width: 11rem;
+  height: 10rem; 
+  margin-top: 10px; 
+}
+
+.time{
+    display: flex;
+   font-size: 20px;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.facilities {
+    margin: 2rem 0 0 5rem;
+    color:blue;
+}
+
+strong {
+    font-size: 25px;
+    margin-left: 7%;
+}
+
+.faculties {
+    display: flex;
+    justify-content: space-evenly;
+}
+.rules{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content:space-evenly;
+}
+.rules b , img.yesorno{
+  padding-left: 10%;
+}
+
+.rulesandregulations{
+  display: flex;
+  margin:2rem 2rem 2rem 2rem;
+  justify-content: space-evenly;
+}
+
+
+.delete , .edit{
+    color: white;
+    background-color: red;
+    border: none;
+    height: 40px;
+    width: 80px;
+    margin-top: 2rem;
+    display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.faculties_image{
+  display: flex;
+justify-content: space-evenly;
+}
+
+
+.edit {  
+    margin-left: 55rem;
+}
+
+.more img{
+  justify-content: space-between;
+
+}
+
+
+
+      .roomdetail{
+       width:48vh;
+       height:100%;
+       border:1px solid #000;
+       box-shadow: 1px 2px rgb(0 0 0 /20%);
+        background-clip: padding-box;
+        border-radius: 8px;
+        margin-right: 10vh;
+      }
+      .twin{
+        margin-top: 2%;
+        flex-wrap: nowrap;
+      }
+       .bed img{
+        width:100%;
+        
+       }
+      
+     
+       .fecilities{
+        margin-top: 8%;
+        margin-bottom: 8%;
+        flex-wrap: nowrap;
+       }
+      .content{
+       margin-bottom: 2%;
+        flex-wrap: nowrap;
+        margin-left: 2%;
+      }
+      .twodetails{
+        display: flex;
+        margin-bottom: 5%;
+        flex-wrap: nowrap;
+        justify-content: center;
+        
+       
+
+      }
+      .entire{
+        border:1px solid;
+        border-radius: 8px;
+        margin-left: 10%;
+        margin-right: 10%;
+        flex-wrap: nowrap;
+        box-shadow: 1px 2px rgb(0 0 0 /20%);
+        background-clip: padding-box;
+      }
+      .left{
+        margin-right: 10%;
+        box-shadow: 1px 2px rgb(0 0 0 /20%);
+        background-clip: padding-box;
+        border-radius: 8px;
+      }
+      h3{
+        margin-left: 4%;
+        margin-bottom: 3%;
+        color:darkmagenta;
+        font-size: 24px;
+        
+      }
+     .otherfecilities{
+        border:1px solid;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 8px;
+        box-shadow: 1px 2px rgb(0 0 0 /20%);
+        background-clip: padding-box;
+        height:20vh;
+     }
+     .slides{
+        display: flex;
+        margin-left: 3%;
+     }
+
+    
+    .address h2{
+      color:deeppink;
+     }
+     .fivefacilities img{
+      margin-bottom: 8%;
+     }
+
+
+    
+ 

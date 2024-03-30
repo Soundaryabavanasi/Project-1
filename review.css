@@ -1,0 +1,107 @@
+@import "normalize.css";
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.stars span  {
+    font-size: 30px;
+}
+.rating-stars,span.star {
+    cursor: pointer;
+}
+button#saveRating{
+    padding: 12px 25px;
+   background-color:#094067;
+   color:aliceblue;
+}
+  
+  .one{
+    border: 1px solid ;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width:40vh;
+    margin-bottom: 20px;
+}
+.two{
+    border:1px solid;
+    width:40vh;  
+    margin-bottom: 20px;
+}
+.revi{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+div.right{
+    border:1px solid;
+    height:50vh;
+    margin-top: 5%;
+    width:40vh;
+   
+    
+}
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.rating{
+    border:1px solid;
+    height:50vh;
+    margin-top: 5%;
+    width:15%;
+    align-content: center;
+}
+div.clean{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+}
+
+
+div.right1{
+    margin-left: 5%;
+
+}
+.star{
+  font-size: 3rem;
+  color:#ff9800;
+  background-color: unset;
+  border:none;
+}
+.star_rating{
+    user-select: none;
+}
+
+
+.Button{
+    margin-top: 20px;
+    background-color: green;
+    width:80px;
+    margin-left: 100px;
+    padding:12px 20px;
+    color:white;
+}
+span.fa.fa-star.checked{
+    color:orange;
+}
+
+.one h2,b ,.experiance,.stars {
+    margin: 0rem 0rem 0rem 2rem;
+}
+
+input[type="text"] {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding:12px 15px;
+   
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

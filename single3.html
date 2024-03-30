@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input-field {
+          margin-bottom: 10px;
+        }
+        .plus-button {
+          cursor: pointer;
+          color: blue;
+        }
+      </style>
+</head>
+<body>
+    <form id="dynamic-form">
+        <div id="input-container">
+          <div class="input-field">
+            <label for="single-share-name">Single Share Name:</label>
+            <input type="text" id="single-share-name" name="single_share_name[]" required>
+          </div>
+          <div class="input-field">
+            <label for="single-share-image">Single Share Image:</label>
+            <input type="text" id="single-share-image" name="single_share_image[]" required>
+          </div>
+        </div>
+        <div id="plus-button-container">
+          <span class="plus-button">+</span>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    
+      <script>
+        const plusButton = document.querySelector('.plus-button');
+        const inputContainer = document.getElementById('input-container');
+    
+        plusButton.addEventListener('click', () => {
+          const newInputField = document.createElement('div');
+          newInputField.classList.add('input-field');
+          newInputField.innerHTML = `
+            <label for="single-share-name">Single Share Name:</label>
+            <input type="text" id="single-share-name" name="single_share_name[]" required>
+            <label for="single-share-image">Single Share Image:</label>
+            <input type="text" id="single-share-image" name="single_share_image[]" required>
+          `;
+          inputContainer.appendChild(newInputField);
+        });
+      </script>
+</body>
+</html>

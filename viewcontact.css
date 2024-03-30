@@ -1,0 +1,107 @@
+
+@import "normalize.css";
+
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+form {
+  border: 3px solid #f1f1f1;
+  height:10%;
+    width: 400px;
+    
+    margin-top: 100px;
+    box-shadow: 20px 20px 50px 15px white;
+
+
+
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+  }
+  
+
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  img.avathar {
+    width: 100px;
+    border-radius: 200%;
+    height: 80px;
+    justify-content: center;
+    
+
+  }
+  div.avathar{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 80px;
+    padding-left: 130px;
+  }
+  
+  .container {
+    padding: 19px;
+  }
+  
+  span.psw {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+  }
+ 
+body{
+    align-content: center;
+    padding-left: 500px;
+    padding-right: 450px;
+    padding-top: 40px;
+    display: block;
+    
+
+}
+button{
+    background-color:red;
+    color:white;
+    padding:14px 25px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    margin-left: 30%;
+    justify-content: center;
+}
+
+div.button{
+    height: 50px;
+}
+
+h2,p{
+    display: flex;
+    justify-content:center;
+}
+div#signin{
+ margin-right:50px ;
+}
